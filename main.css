@@ -1,0 +1,24 @@
+#preloader{  /* body */
+    line-height: 30px;    font-size: 16px; 
+    font-family: "Open Sans", sans-serif;  color: #797979;
+}
+
+/*  h1, h2, h3, h4, h5,h6 { font-family: "Montserrat", sans-serif; }  */  
+
+@keyframes spinner { /* Spinner */
+    to { transform: rotate(1turn);  }
+}
+
+@keyframes letters-loading { /* Swastik main name*/
+0%, 75%, to { opacity: 0; transform: rotateY(-90deg); }
+25%, 50% { opacity: 1;  transform: rotateY(0deg); }
+}
+
+@media screen and (max-width: 767px) {
+.ctn-preloader .animation-preloader .spinner { /* Spinner */
+    height: 5em; width: 5em;
+}
+.ctn-preloader .animation-preloader .txt-loading { /* Swastik main name*/
+    font: 700 3.5em "Poppins", sans-serif;
+}
+}
