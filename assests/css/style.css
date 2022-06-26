@@ -650,12 +650,13 @@ header .navbar ul li a:hover{
   transform: scale(1.03);
   box-shadow: 1rem .5rem 1.2rem rgba(0, 0, 0, .3);
 }
-.education .box-container .box .image{ /*iitb image*/
-  flex: 1 1 25rem ; /* flex-grow | flex-shrink | flex-basis*/
+.education .box-container .box .image{ 
+  flex: 1 1 25rem ;  /*flex-grow | flex-shrink | flex-basis*/
   width: 100%;
+  
 }
-.education .box-container .box img{
-  object-fit: cover;
+.education .box-container .box img{ /*iitb image*/
+  object-fit: flex;
   position: relative;
   width: 100%;
   height: 100%;
