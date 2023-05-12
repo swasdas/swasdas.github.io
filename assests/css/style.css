@@ -535,52 +535,52 @@ header .navbar ul li a:hover{
   left: 0;
   border-radius: 4px;
 }
-.skills .container .col .bar .html:before{
-  width: 95%;
+.skills .container .col .bar .kubernetes:before{
+  width: 85%;
   background: #e03d0b;
 }
-.skills .container .col .bar .css:before{
-  width: 90%;
+.skills .container .col .bar .grafana:before{
+  width: 75%;
   background: #2962ff;
 }
-.skills .container .col .bar .javascript:before{
-  width: 80%;
+.skills .container .col .bar .prometheus:before{
+  width: 60%;
   background: #ffd900;
 }
-.skills .container .col .bar .php:before{
-  width: 60%;
+.skills .container .col .bar .html:before{
+  width: 75%;
   background: #8054c7;
 }
-.skills .container .col .bar .mysql:before{
+.skills .container .col .bar .linux:before{
   width: 75%;
   background: #f38b03;
 }
-.skills .container .col .bar .reactjs:before{
+.skills .container .col .bar .css:before{
   width: 70%;
   background: #2962ff;
 }
-.skills .container .col .bar .java:before{
+.skills .container .col .bar .aws:before{
   width: 70%;
   background: #ce0505;
 }
 .skills .container .col .bar .python:before{
-  width: 98%;
+  width: 90%;
   background: #f7d203;
 }
-.skills .container .col .bar .android:before{
-  width: 40%;
+.skills .container .col .bar .jenkins:before{
+  width: 60%;
   background: #2fdf7e;
 }
-.skills .container .col .bar .nodejs:before{
-  width: 60%;
+.skills .container .col .bar .docker:before{
+  width: 65%;
   background: #298521;
 }
-.skills .container .col .bar .vcs:before{
+.skills .container .col .bar .git:before{
   width: 70%;
   background: #f14e32;
 }
-.skills .container .col .bar .cms:before{
-  width: 40%;
+.skills .container .col .bar .javascript:before{
+  width: 55%;
   background: #1771e7;
 }
 .skills .container .col .bar .firebase:before{
