@@ -40,11 +40,11 @@ $(document).ready(function(){
 
 document.addEventListener('visibilitychange', function(){
     if(document.visibilityState === "visible"){
-        document.title = "Swastik Dasgaonkar | IIT Bombay";
+        document.title = "Swastik Desai | IIT Bombay";
         $("#favicon").attr("href","assests/images/favicon.png");
     }
     else {
-        document.title = "Welcome again to Swastik's Website";
+        document.title = "Welcome to Swastik's Website";
         $("#favicon").attr("href","assests/images/favhand.png");
     }
 });
@@ -52,7 +52,7 @@ document.addEventListener('visibilitychange', function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", { 
-        strings: ["DevOps", "SRE", "Traveling", "Music"], // "Android development", "Database Management"
+        strings: ["Full Stack Development", "DevOps", "SRE", "Traveling", "Music"], // "Android development", "Database Management"
         loop: true, typeSpeed: 50, backSpeed: 20, backDelay: 500,
       });
 // <!-- typed js effect ends -->
