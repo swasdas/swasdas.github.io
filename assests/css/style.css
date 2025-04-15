@@ -536,7 +536,7 @@ header .navbar ul li a:hover{
   border-radius: 4px;
 }
 .skills .container .col .bar .kubernetes:before{
-  width: 80%;
+  width: 75%;
   background: #e03d0b;
 }
 .skills .container .col .bar .grafana:before{
