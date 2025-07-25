@@ -52,7 +52,7 @@ document.addEventListener('visibilitychange', function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", { 
-        strings: ["Full Stack Development", "DevOps", "SRE", "Traveling", "Music"], // "Android development", "Database Management"
+        strings: ["Full Stack Development", "AI", "DevOps", "Traveling", "Music"], // "Android development", "Database Management"
         loop: true, typeSpeed: 50, backSpeed: 20, backDelay: 500,
       });
 // <!-- typed js effect ends -->
